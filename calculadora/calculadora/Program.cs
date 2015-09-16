@@ -10,36 +10,48 @@ namespace calculadora
     {
         static void Main(string[] args)
         {
-            int n, op;
+            int n, op, n1;
 
             Console.WriteLine("HOLA MUNDO");
             Console.ReadKey();
             Console.WriteLine("INGRESE PRIMER NUMERO");
             n = int.Parse(Console.ReadLine());
             Console.WriteLine("INGRESE SEGUNDO NUMERO");
-            n = int.Parse(Console.ReadLine());
+            n1 = int.Parse(Console.ReadLine());
 
-            
+
             do
             {
                 Console.WriteLine("1. SUMA");
                 Console.WriteLine("2. RESTA");
                 Console.WriteLine("3. MULTIPLICACION");
-                
+                Console.WriteLine("SALIR");
+                Console.WriteLine("INGRESE LA OPCION: ");
+                op = int.Parse(Console.ReadLine());
+
                 switch (op)
                 {
                     case 1:
-                        { 
+                        {
+                            int r= n+n1;
+                            Console.WriteLine(r);
+                            break;
                         }
                     case 2:
-                        { }
+                        {
+                            break;
+                        }
                     case 3:
-                        {}
-                
- 
+                        {
+                            break;
+                        }
+
+
                 }
 
-            }while(Op!=4);
+            } while (op != 4);
+
+            Console.ReadKey();
 
         }
     }
