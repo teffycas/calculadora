@@ -1,0 +1,1 @@
+F:\cursoGit\calculadora\calculadora\bin\Debug\calculadora.exe.config
