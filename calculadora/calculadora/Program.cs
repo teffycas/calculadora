@@ -10,6 +10,8 @@ namespace calculadora
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("HOLA MUNDO");
+            Console.ReadKey();
         }
     }
 }
