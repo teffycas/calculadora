@@ -34,18 +34,23 @@ namespace calculadora
                     case 1:
                         {
                             int r= n+n1;
-                            Console.WriteLine(r);
+                            Console.WriteLine("LA SUMA ES:" + r);
                             break;
                         }
                     case 2:
                         {
+<<<<<<< HEAD
 
                             int r = n - n1;
                             Console.WriteLine("la resta es:"+r);
+=======
+                            
+>>>>>>> suma
                             break;
                         }
                     case 3:
                         {
+                            
                             break;
                         }
 
