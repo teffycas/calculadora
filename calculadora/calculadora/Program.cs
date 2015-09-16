@@ -39,6 +39,9 @@ namespace calculadora
                         }
                     case 2:
                         {
+
+                            int r = n - n1;
+                            Console.WriteLine("la resta es:"+r);
                             break;
                         }
                     case 3:
