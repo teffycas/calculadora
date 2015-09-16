@@ -10,8 +10,13 @@ namespace calculadora
     {
         static void Main(string[] args)
         {
+            int n;
+
             Console.WriteLine("HOLA MUNDO");
             Console.ReadKey();
+            Console.WriteLine("INGRESE UN NUMERO");
+            n = int.Parse(Console.ReadLine());
+
         }
     }
 }
