@@ -25,7 +25,9 @@ namespace calculadora
                 Console.WriteLine("1. SUMA");
                 Console.WriteLine("2. RESTA");
                 Console.WriteLine("3. MULTIPLICACION");
-                Console.WriteLine("SALIR");
+                Console.WriteLine("4. DIVISION");
+                Console.WriteLine("5. POTENCIA");
+                Console.WriteLine("6.SALIR");
                 Console.WriteLine("INGRESE LA OPCION: ");
                 op = int.Parse(Console.ReadLine());
 
@@ -50,14 +52,21 @@ namespace calculadora
                         }
                     case 3:
                         {
+                            int mult = n * n1;
+                            Console.WriteLine("la multiplicacionn es: " + mult);
                             
+                            break;
+                        }
+
+                    case 4:
+                        {
                             break;
                         }
 
 
                 }
 
-            } while (op != 4);
+            } while (op != 6);
 
             Console.ReadKey();
 
