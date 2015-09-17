@@ -59,10 +59,9 @@ namespace calculadora
                         }
                     case 5:
                         {
-                            int r = n^2 + n1^2;
+                            int r = (n^3) + (n1^2);
                             Console.WriteLine("la suma de potencia es:" + r);
-                            break;
- 
+                            break; 
                         }
 
                     case 4:
