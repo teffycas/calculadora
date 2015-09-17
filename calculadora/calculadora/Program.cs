@@ -53,6 +53,13 @@ namespace calculadora
                             
                             break;
                         }
+                    case 5:
+                        {
+                            int r = n^2 + n1^2;
+                            Console.WriteLine("la suma de potencia es:" + r);
+                            break;
+ 
+                        }
 
 
                 }
