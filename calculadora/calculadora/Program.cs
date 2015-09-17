@@ -54,6 +54,13 @@ namespace calculadora
                             break;
                         }
 
+                    case 4:
+                        {
+                            int r = n / n1;
+                            Console.WriteLine("la division es:" + r);
+                            break;
+                        }
+
 
                 }
 
